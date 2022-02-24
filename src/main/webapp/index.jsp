@@ -9,7 +9,7 @@
 <html lang="pl">
 <head>
     <title>Chat</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <header>
@@ -18,7 +18,7 @@
 </header>
 <main>
     <section class="chat">
-        <p>
+
             <c:if test="${fn:length(applicationScope.messages) == 0}">
                 Nie ma jeszcze żadnej wiadomości. Rozpocznij czat...
             </c:if>
@@ -30,7 +30,6 @@
                 </li>
             </ul>
             </c:forEach>
-        </p>
 
     </section>
     <section>

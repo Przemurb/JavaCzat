@@ -24,20 +24,32 @@ h3 {
 }
 
 textarea {
-    padding: 5px;
-    width: 100%;
+
+    width: 99%;
     height: 200px;
 }
 
 .nick {
-    padding: 5px;
-    width: 100%;
+    width: 99%;
 }
 
 button {
     margin-top: 5px;
-    padding: 5px;
     width: 100%;
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    font-size: 11px;
+    text-align: left;
+    margin-left: -30px;
+}
+
+ul:nth-child(even) {
+    background-color: lightblue;
+}
