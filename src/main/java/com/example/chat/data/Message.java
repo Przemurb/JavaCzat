@@ -7,7 +7,7 @@ public class Message {
     public Message(String nick, String content) {
         if (nick == null || nick.equals("")) {
             throw new IllegalArgumentException("Nick cant by empty");
-        } else if (content == null || !content.equals("")) {
+        } else if (content == null || content.equals("")) {
             throw new IllegalArgumentException("Message cant by empty");
         } else {
             this.nick = nick;
